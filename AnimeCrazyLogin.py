@@ -103,7 +103,7 @@ if __name__ == '__main__':
     # 添加代理
     obj.proxies = {"http": "http://127.0.0.1:7890", "https": "http://127.0.0.1:7890"}
 
-    # 不适用代理则用{}
+    # 不使用代理则用{}
     # obj.proxies = {}
 
     # 刷新ck

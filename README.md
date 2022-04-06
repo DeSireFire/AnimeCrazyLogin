@@ -1,5 +1,7 @@
 # AnimeCrazyLogin
-巴哈姆特動畫瘋，自动登录程序，并获取登录的用户cookies
+巴哈姆特動畫瘋，自动登录程序，并获取登录的用户cookies。
+
+如果，能为各位开发者提供到帮助，求个Start~!
 
 # 环境依赖&安装
 该项目开发于Python 3.10,但是第三方依赖很少，所以预估是Python3.6+的也能正常使用。
@@ -24,7 +26,7 @@ obj = user_sign(user_name=user_name, password=password)
 # 添加代理
 obj.proxies = {"http": "http://127.0.0.1:7890", "https": "http://127.0.0.1:7890"}
 
-# 不适用代理则用{}
+# 不使用代理则用{}
 # obj.proxies = {}
 
 # 刷新ck
